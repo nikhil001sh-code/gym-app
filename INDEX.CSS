@@ -1,0 +1,296 @@
+/* ===== BASIC RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ===== NAVBAR ===== */
+
+header {
+    background-color: #151515;
+    padding: 20px 50px;
+    border-bottom: 2px solid #f5a400;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f5a400;
+}
+
+
+/* ===== HERO SECTION ===== */
+
+.hero {
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(20,20,20,0.75), rgba(20,20,20,0.75)),
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2vJpm-H4qbfbu6vDI11YhNGn4CX5Jpkxr9Ne0lU3dqQ&s=10");
+
+    background-size: cover;
+    background-position: center;
+
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #f5a400;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    background-color: #f5a400;
+    color: #111111;
+
+    border: none;
+    padding: 13px 30px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #ff7b00;
+    color: white;
+
+    transform: scale(1.05);
+}
+
+
+/* ===== ALL SECTION HEADINGS ===== */
+
+h2 {
+    text-align: center;
+    margin: 45px 0 25px;
+
+    color: #f5a400;
+
+    font-size: 30px;
+}
+
+
+/* ===== SERVICES ===== */
+
+.sevices {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sevices img {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+/* ===== SERVICE CARDS ===== */
+
+/* Images + heading ko card jaisa dikhane ke liye */
+
+.sevices {
+    background-color: #2d2d2d;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #444;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.sevices h3 {
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* ===== PLANS ===== */
+
+.Plans {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+
+    background-color: #2d2d2d;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #444;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.Plans h3 {
+    background-color: #383838;
+
+    color: #ffffff;
+
+    padding: 25px 20px;
+
+    border-radius: 10px;
+
+    border-left: 4px solid #f5a400;
+
+    flex: 1;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.Plans h3:hover {
+    transform: translateY(-5px);
+
+    background-color: #444;
+
+    border-left-color: #ff7b00;
+}
+
+
+/* ===== TRAINERS ===== */
+
+.trainers {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 25px;
+
+    background-color: #2d2d2d;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    border: 1px solid #444;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.trainers img {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 3px solid #f5a400;
+}
+
+.trainers h3 {
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+
+/* ===== GYM TOUR ===== */
+
+.gym.tour {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: flex;
+    gap: 20px;
+
+    padding: 25px;
+
+    background-color: #2d2d2d;
+
+    border-radius: 15px;
+}
+
+.gym.tour img {
+    width: 33.33%;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+
+.gym.tour img:hover {
+    transform: scale(1.03);
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    margin-top: 50px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    background-color: #151515;
+
+    color: #999999;
+
+    border-top: 2px solid #f5a400;
+}
